@@ -132,3 +132,177 @@ table {
 /* Beginning of My Code */
 
 /* Navigation section */
+
+.nav_container {
+  background-color: lightgray;
+  padding-bottom: 20px;
+}
+
+.nav_name {
+  font-size: xx-large;
+  padding: 30px;
+}
+
+.nav_buttons {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 50px;
+}
+.nav_home {
+  background-color: black;
+  color: white;
+  width: 75px;
+  padding: 5px;
+  text-align: center;
+  border: 1px black solid;
+  text-decoration: none;
+}
+.nav_about {
+  background-color: white;
+  color: black;
+  width: 75px;
+  padding: 5px;
+  text-align: center;
+  border: 1px black solid;
+  text-decoration: none;
+}
+.nav_contact {
+  background-color: white;
+  color: black;
+  width: 75px;
+  padding: 5px;
+  text-align: center;
+  border: 1px black solid;
+  text-decoration: none;
+}
+.nav_project {
+  background-color: white;
+  color: black;
+  width: 75px;
+  padding: 5px;
+  text-align: center;
+  border: 1px black solid;
+  text-decoration: none;
+}
+
+/* End navigation section */
+
+/* Begin header section */
+
+.header_container {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 50px;
+}
+
+.header_text_container {
+  padding-left: 80px;
+}
+
+.header_image {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.header_title {
+  font-size: 52px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.header_button_container {
+  /* border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  font-size: xx-large;
+  background-color: dodgerblue;
+  margin-top: 20px;
+  margin-bottom: 20px; */
+}
+
+.header_button {
+  padding: 10px;
+  text-align: center;
+  font-size: xx-large;
+  background-color: dodgerblue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: white;
+  width: 100%;
+}
+
+.header_text {
+  font-size: 24px;
+  text-align: left;
+}
+
+/* End header section */
+
+/* Begin body section */
+
+.body_container {
+}
+
+.body_section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-top: 50px;
+}
+
+.body_box {
+  width: 30%;
+  height: 300px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.box_image {
+  height: 90%;
+}
+
+.box_text {
+  height: 20%;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.footer_container {
+  background-color: lightgray;
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+
+.footer_navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_text {
+  font-size: xx-large;
+  padding: 30px;
+  text-align: center;
+}
+
+.contact {
+  border: 1px solid black;
+  text-align: center;
+  font-size: xx-large;
+  background-color: dodgerblue;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 50px;
+  padding: 10px;
+}
